@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebRoot/JS/check.jsp=UTF-8
+encoding//WebRoot/bookdel.jsp=UTF-8
+encoding//WebRoot/message.jsp=UTF-8
+encoding//WebRoot/register.jsp=UTF-8
+encoding//WebRoot/usermodify.jsp=UTF-8
+encoding//src/mybookapp1/DAO/UserDAO.java=UTF-8
+encoding//src/mybookapp1/DTO/User.java=UTF-8
+encoding//src/mybookapp1/factory/ConnectionFactory.java=UTF-8
+encoding//src/mybookapp1/filter/CharsetFilter.java=UTF-8
+encoding//src/mybookapp1/servlet/LoginServlet.java=UTF-8
+encoding//src/mybookapp1/servlet/OrderCreate.java=UTF-8
+encoding//src/mybookapp1/servlet/RegisterServlet.java=UTF-8
+encoding//src/mybookapp1/servlet/UserModifyServlet.java=UTF-8

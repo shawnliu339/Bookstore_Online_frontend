@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<welcome-file-list>
+		<welcome-file>index.action</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>mybookapp1.servlet.IndexServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>login</description>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>mybookapp1.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>register</description>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>mybookapp1.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>logout</description>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>mybookapp1.servlet.LogoutServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>user modify</description>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.UserModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>book show</description>
+    <servlet-name>BookShowServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.BookShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>book detail</description>
+    <servlet-name>BookDetailServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.BookDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>book search</description>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>cart add</description>
+    <servlet-name>CartAddServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.CartAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>cart add</description>
+    <servlet-name>CartRemoveServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.CartRemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>cart add</description>
+    <servlet-name>CartClearServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.CartClearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>cart modify</description>
+    <servlet-name>CartModify</servlet-name>
+    <servlet-class>mybookapp1.servlet.CartModify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>order create</description>
+    <servlet-name>OrderCreate</servlet-name>
+    <servlet-class>mybookapp1.servlet.OrderCreate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>check user name</description>
+    <servlet-name>checkUsername</servlet-name>
+    <servlet-class>mybookapp1.servlet.CheckUsername</servlet-class>
+  </servlet>
+  <servlet>
+    <description>order search</description>
+    <servlet-name>OrderSearch</servlet-name>
+    <servlet-class>mybookapp1.servlet.OrderSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>order's detail</description>
+    <servlet-name>OrderDetail</servlet-name>
+    <servlet-class>mybookapp1.servlet.OrderDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>cart show</description>
+    <servlet-name>CartShow</servlet-name>
+    <servlet-class>mybookapp1.servlet.CartShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>book sort</description>
+    <servlet-name>BookSort</servlet-name>
+    <servlet-class>mybookapp1.servlet.BookSort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>sales ranking</description>
+    <servlet-name>SalesRankingServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.SalesRankingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>index of sales ranking</description>
+    <servlet-name>SalesRankingS</servlet-name>
+    <servlet-class>mybookapp1.servlet.SalesRankingS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>add guest book</description>
+    <servlet-name>GuestbookAddServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.GuestbookAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>show guest book</description>
+    <servlet-name>GuestbookShowServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.GuestbookShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>delete guest book</description>
+    <servlet-name>DeleteGuestbookServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.DeleteGuestbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>delete guest book</description>
+    <servlet-name>GuestbookDeleteServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.GuestbookDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>get read history</description>
+    <servlet-name>HistoryServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.HistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>get guest book detail</description>
+    <servlet-name>GuestbookDetailServlet</servlet-name>
+    <servlet-class>mybookapp1.servlet.GuestbookDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>admin login</description>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>mybookapp1.servlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>admin logout</description>
+    <servlet-name>AdminLogout</servlet-name>
+    <servlet-class>mybookapp1.servlet.AdminLogout</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern>/index.action</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login.action</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register.action</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout.action</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserModifyServlet</servlet-name>
+    <url-pattern>/usermodify.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookShowServlet</servlet-name>
+    <url-pattern>/bookshow.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookDetailServlet</servlet-name>
+    <url-pattern>/bookdetail.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartAddServlet</servlet-name>
+    <url-pattern>/cartAdd.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartRemoveServlet</servlet-name>
+    <url-pattern>/cartRemove.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartClearServlet</servlet-name>
+    <url-pattern>/cartClear.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartModify</servlet-name>
+    <url-pattern>/cartModify.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderCreate</servlet-name>
+    <url-pattern>/orderCreate.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkUsername</servlet-name>
+    <url-pattern>/checkUsername.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderSearch</servlet-name>
+    <url-pattern>/orderSearch.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDetail</servlet-name>
+    <url-pattern>/orderDetail.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartShow</servlet-name>
+    <url-pattern>/cartShow.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookSort</servlet-name>
+    <url-pattern>/bookSort.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SalesRankingServlet</servlet-name>
+    <url-pattern>/ranking.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SalesRankingS</servlet-name>
+    <url-pattern>/rankingS.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuestbookAddServlet</servlet-name>
+    <url-pattern>/guestbookAdd.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuestbookShowServlet</servlet-name>
+    <url-pattern>/guestbookShow.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGuestbookServlet</servlet-name>
+    <url-pattern>/deleteGuestbook.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuestbookDeleteServlet</servlet-name>
+    <url-pattern>/guestbookDelete.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryServlet</servlet-name>
+    <url-pattern>/history.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuestbookDetailServlet</servlet-name>
+    <url-pattern>/guestbookDetail.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/admin/adminLogin.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogout</servlet-name>
+    <url-pattern>/admin/adminLogout.action</url-pattern>
+  </servlet-mapping>
+
+
+	<filter>
+		<filter-name>char set filter</filter-name>
+		<filter-class>mybookapp1.filter.CharsetFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>char set filter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	
+	<listener>
+		<listener-class>mybookapp1.listener.UserSessionListner</listener-class>
+	</listener>
+	
+</web-app>
